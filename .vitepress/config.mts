@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/playwright-guide/',
   title: "Playwright Guide",
   description: "Hướng dẫn sử dụng Playwright cho Tester",
   themeConfig: {
